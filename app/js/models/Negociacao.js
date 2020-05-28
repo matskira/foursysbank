@@ -3,7 +3,7 @@ class Negociacao {
         this._data = _data;
         this._quantidade = _quantidade;
         this._valor = _valor;
-    } //Ao colocarmos o '_' significa que é um atributo privado
+    }
     get data() {
         return this._data;
     }
